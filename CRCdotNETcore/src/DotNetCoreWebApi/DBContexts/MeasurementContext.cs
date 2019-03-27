@@ -11,7 +11,6 @@ namespace DotNetCoreWebApi.DBContexts
     {
         public MeasurementContext(DbContextOptions contextOptions) : base(contextOptions)
         {
-
         }
 
         public DbSet<Measurement> Measurements { get; set; }
